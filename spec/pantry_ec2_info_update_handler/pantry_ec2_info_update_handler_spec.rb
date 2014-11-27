@@ -1,7 +1,7 @@
 require 'spec_helper'
 require_relative '../../pantry_ec2_info_update_handler/pantry_ec2_info_update_handler'
 
-describe Wonga::Daemon::PantryEC2InfoUpdateHandler do
+RSpec.describe Wonga::Daemon::PantryEC2InfoUpdateHandler do
   let(:config) do
     {
       'pantry' => {
