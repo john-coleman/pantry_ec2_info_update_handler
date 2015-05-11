@@ -8,7 +8,7 @@ unless ENV['SKIP_COV']
   SimpleCov.start
 end
 
-require 'aws'
+require 'aws-sdk-v1'
 require 'spec_support/shared_daemons'
 
 AWS.config access_key_id: 'test', secret_access_key: 'test'

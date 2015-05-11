@@ -16,5 +16,4 @@ RSpec.describe Wonga::Daemon::PantryEC2InfoUpdateHandler do
   subject { Wonga::Daemon::PantryEC2InfoUpdateHandler.new(config, logger) }
 
   it_behaves_like 'handler'
-
 end

@@ -5,12 +5,36 @@ AllCops:
     - '**/version.rb'
     - '*file'
 
-ClassAndModuleChildren:
+Style/ClassAndModuleChildren:
   Enabled: false
-Documentation:
+Style/CollectionMethods:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/FormatString:
+  Enabled: false
+Style/SingleLineBlockParams:
+  Enabled: false
+Style/NumericLiterals:
+  MinDigits: 9
+Style/MultilineOperationIndentation:
   Enabled: false
 
-CollectionMethods:
+Metrics/LineLength:
+  Max: 180
+Metrics/MethodLength:
+  Max: 35
+Metrics/ClassLength:
   Enabled: false
-LineLength:
-  Max: 160
+Metrics/CyclomaticComplexity:
+  Enabled: false
+Metrics/PerceivedComplexity:
+  Max: 13
+Metrics/AbcSize:
+  Enabled: false
+Metrics/ParameterLists:
+  Max: 6
+
+
+Rails/DefaultScope:
+  Enabled: false
